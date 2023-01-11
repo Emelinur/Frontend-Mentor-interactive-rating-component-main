@@ -1,0 +1,93 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: hsl(216, 12%, 8%);
+display: flex;
+align-items: center;
+height: 100vh;
+}
+.card{
+
+    width: 400px;
+    height: 400px;
+    background-color:#212832;
+    border-radius: 20px;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+.star_img{
+width: 50px;
+height: 50px;
+background-color:#272e38;
+border-radius: 50px;
+}
+.star_img img{
+margin: 17px;
+}
+
+.col p{
+color: hsl(217, 12%, 63%);
+
+}
+
+.number{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color:#262f38;
+text-align: center;
+padding: 12px;
+font-size: 18px;
+color: hsl(217, 12%, 63%);
+}
+.active, .number:hover{
+cursor: pointer;
+background-color:hsl(25, 97%, 53%) ;
+color: rgb(255, 255, 255);
+}
+
+.btn{
+width: 400px;
+height: 50px;
+text-align: center;
+padding: 10px;
+background-color: hsl(25, 97%, 53%);
+font-size: 18px;
+border-radius: 25px;
+}
+.btn:hover{
+cursor: pointer;
+background-color:hsl(0, 0%, 100%) ;
+color:hsl(25, 97%, 53%) ;
+font-size: 20px;
+font-weight: bold;
+}
+
+.t_card{
+    width: 400px;
+    height: 400px;
+    background-color:#212832;
+    border-radius: 20px;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+.select-counter{
+    justify-content: center;
+    width: 250px;
+    padding: 5px;
+    background-color: #1f262c;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.select-counter span{
+color:hsl(25, 97%, 53%) ;
+font-size: 12px;
+}
+#cardThk{
+    display: none;
+}
